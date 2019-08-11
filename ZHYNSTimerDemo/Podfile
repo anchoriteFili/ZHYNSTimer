@@ -1,0 +1,16 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+source 'https://gitee.com/anchoritefiligod/ZHSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target 'ZHYNSTimerDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+#  use_frameworks!
+
+  pod 'ZHNetRequest', :path => '../ZHYLib/ZHNetRequest'
+  pod 'ZHUtils'
+  pod 'AFNetworking'
+
+end

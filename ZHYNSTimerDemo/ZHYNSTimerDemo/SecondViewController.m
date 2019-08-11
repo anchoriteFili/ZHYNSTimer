@@ -24,11 +24,10 @@
     // Do any additional setup after loading the view.
     
     // 使用block时使用弱引用
-    __weak typeof(self) weakSelf = self;
-    self.timer = [NSTimer zh_scheduledTimerWithTimeInterval:1 block:^{
-        [weakSelf timerRunning];
-    } repeats:YES];
-    
+//    __weak typeof(self) weakSelf = self;
+//    self.timer = [NSTimer zh_scheduledTimerWithTimeInterval:1 block:^{
+//        [weakSelf timerRunning];
+//    } repeats:YES];
     
     
     ZHWeakObject *weakObj = [ZHWeakObject proxyWithWeakObject:self];

@@ -3,25 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72F0464E0CC248A85871ED68 /* libPods-ZHYNSTimerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B95CF7326605D632FF6F6271 /* libPods-ZHYNSTimerDemo.a */; };
 		F9D3092622F3B07E009B2A7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D3092522F3B07E009B2A7A /* AppDelegate.m */; };
 		F9D3092922F3B07E009B2A7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D3092822F3B07E009B2A7A /* ViewController.m */; };
 		F9D3092C22F3B07E009B2A7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9D3092A22F3B07E009B2A7A /* Main.storyboard */; };
 		F9D3092E22F3B07F009B2A7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9D3092D22F3B07F009B2A7A /* Assets.xcassets */; };
 		F9D3093122F3B07F009B2A7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9D3092F22F3B07F009B2A7A /* LaunchScreen.storyboard */; };
 		F9D3093422F3B07F009B2A7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D3093322F3B07F009B2A7A /* main.m */; };
-		F9D3093C22F3B0C4009B2A7A /* NSTimer+BlockTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D3093B22F3B0C4009B2A7A /* NSTimer+BlockTimer.m */; };
 		F9D3094322F3E183009B2A7A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D3094122F3E183009B2A7A /* SecondViewController.m */; };
 		F9D3094422F3E183009B2A7A /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9D3094222F3E183009B2A7A /* SecondViewController.xib */; };
-		F9D3094722F3E8A9009B2A7A /* ZHWeakObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D3094622F3E8A9009B2A7A /* ZHWeakObject.m */; };
 		F9D3094B22F3EAF4009B2A7A /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D3094922F3EAF4009B2A7A /* ThirdViewController.m */; };
 		F9D3094C22F3EAF4009B2A7A /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9D3094A22F3EAF4009B2A7A /* ThirdViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C4B2410B99DC2E489133E50 /* Pods-ZHYNSTimerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHYNSTimerDemo.release.xcconfig"; path = "Target Support Files/Pods-ZHYNSTimerDemo/Pods-ZHYNSTimerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		81603795F6E08C8C320257A1 /* Pods-ZHYNSTimerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHYNSTimerDemo.debug.xcconfig"; path = "Target Support Files/Pods-ZHYNSTimerDemo/Pods-ZHYNSTimerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B95CF7326605D632FF6F6271 /* libPods-ZHYNSTimerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZHYNSTimerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9D3092122F3B07E009B2A7A /* ZHYNSTimerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHYNSTimerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9D3092422F3B07E009B2A7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F9D3092522F3B07E009B2A7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -32,13 +34,9 @@
 		F9D3093022F3B07F009B2A7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9D3093222F3B07F009B2A7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9D3093322F3B07F009B2A7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F9D3093A22F3B0C4009B2A7A /* NSTimer+BlockTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+BlockTimer.h"; sourceTree = "<group>"; };
-		F9D3093B22F3B0C4009B2A7A /* NSTimer+BlockTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+BlockTimer.m"; sourceTree = "<group>"; };
 		F9D3094022F3E183009B2A7A /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		F9D3094122F3E183009B2A7A /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		F9D3094222F3E183009B2A7A /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
-		F9D3094522F3E8A9009B2A7A /* ZHWeakObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHWeakObject.h; sourceTree = "<group>"; };
-		F9D3094622F3E8A9009B2A7A /* ZHWeakObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHWeakObject.m; sourceTree = "<group>"; };
 		F9D3094822F3EAF4009B2A7A /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		F9D3094922F3EAF4009B2A7A /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		F9D3094A22F3EAF4009B2A7A /* ThirdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
@@ -49,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72F0464E0CC248A85871ED68 /* libPods-ZHYNSTimerDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4478E43655118CBBB609A052 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81603795F6E08C8C320257A1 /* Pods-ZHYNSTimerDemo.debug.xcconfig */,
+				1C4B2410B99DC2E489133E50 /* Pods-ZHYNSTimerDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BBBAF937B175DFC99A830401 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B95CF7326605D632FF6F6271 /* libPods-ZHYNSTimerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F9D3091822F3B07E009B2A7A = {
 			isa = PBXGroup;
 			children = (
 				F9D3092322F3B07E009B2A7A /* ZHYNSTimerDemo */,
 				F9D3092222F3B07E009B2A7A /* Products */,
+				4478E43655118CBBB609A052 /* Pods */,
+				BBBAF937B175DFC99A830401 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,10 +102,6 @@
 				F9D3094822F3EAF4009B2A7A /* ThirdViewController.h */,
 				F9D3094922F3EAF4009B2A7A /* ThirdViewController.m */,
 				F9D3094A22F3EAF4009B2A7A /* ThirdViewController.xib */,
-				F9D3093A22F3B0C4009B2A7A /* NSTimer+BlockTimer.h */,
-				F9D3093B22F3B0C4009B2A7A /* NSTimer+BlockTimer.m */,
-				F9D3094522F3E8A9009B2A7A /* ZHWeakObject.h */,
-				F9D3094622F3E8A9009B2A7A /* ZHWeakObject.m */,
 				F9D3092A22F3B07E009B2A7A /* Main.storyboard */,
 				F9D3092D22F3B07F009B2A7A /* Assets.xcassets */,
 				F9D3092F22F3B07F009B2A7A /* LaunchScreen.storyboard */,
@@ -104,6 +118,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9D3093722F3B07F009B2A7A /* Build configuration list for PBXNativeTarget "ZHYNSTimerDemo" */;
 			buildPhases = (
+				24522A03820F069588A2512B /* [CP] Check Pods Manifest.lock */,
 				F9D3091D22F3B07E009B2A7A /* Sources */,
 				F9D3091E22F3B07E009B2A7A /* Frameworks */,
 				F9D3091F22F3B07E009B2A7A /* Resources */,
@@ -164,16 +179,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24522A03820F069588A2512B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZHYNSTimerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F9D3091D22F3B07E009B2A7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F9D3094322F3E183009B2A7A /* SecondViewController.m in Sources */,
-				F9D3093C22F3B0C4009B2A7A /* NSTimer+BlockTimer.m in Sources */,
 				F9D3092922F3B07E009B2A7A /* ViewController.m in Sources */,
 				F9D3093422F3B07F009B2A7A /* main.m in Sources */,
-				F9D3094722F3E8A9009B2A7A /* ZHWeakObject.m in Sources */,
 				F9D3092622F3B07E009B2A7A /* AppDelegate.m in Sources */,
 				F9D3094B22F3EAF4009B2A7A /* ThirdViewController.m in Sources */,
 			);
@@ -315,6 +353,7 @@
 		};
 		F9D3093822F3B07F009B2A7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81603795F6E08C8C320257A1 /* Pods-ZHYNSTimerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -332,6 +371,7 @@
 		};
 		F9D3093922F3B07F009B2A7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C4B2410B99DC2E489133E50 /* Pods-ZHYNSTimerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,42 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - ZHNetRequest (0.1.0)
+  - ZHUtils (0.0.1)
+
+DEPENDENCIES:
+  - AFNetworking
+  - ZHNetRequest (from `../ZHYLib/ZHNetRequest`)
+  - ZHUtils
+
+SPEC REPOS:
+  https://gitee.com/anchoritefiligod/ZHSpecs.git:
+    - ZHUtils
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+
+EXTERNAL SOURCES:
+  ZHNetRequest:
+    :path: "../ZHYLib/ZHNetRequest"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  ZHNetRequest: 5d57f0fd5f6c12a0bdaf0ee005142f22db1aed18
+  ZHUtils: 73fa6fc418f0c3d70bad7780dc2e9970b4553fb9
+
+PODFILE CHECKSUM: ad64d092af6d59f06641e73916708f9a88e5d4d8
+
+COCOAPODS: 1.7.4
